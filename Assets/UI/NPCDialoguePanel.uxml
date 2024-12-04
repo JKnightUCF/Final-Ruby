@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="NPCDialogueStyle.uss" />
+    <ui:VisualElement name="GameUI" style="width: 100%; height: 100%;">
+        <ui:VisualElement name="NPCDialoguePanel" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+            <ui:VisualElement name="DialogueContainer" class="dialogue-container">
+                <ui:VisualElement name="DialoguePanel" class="dialogue-panel">
+                    <ui:VisualElement name="NPCPortrait" class="npc-portrait" />
+                    <ui:VisualElement name="DialogueContent" class="dialogue-content">
+                        <ui:Label name="NPCName" text="NPC Name" class="npc-name" />
+                        <ui:Label name="DialogueText" text="Dialogue text goes here..." class="dialogue-text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ContinueIndicator" class="continue-indicator">
+                        <ui:Label text="▼" class="continue-arrow" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

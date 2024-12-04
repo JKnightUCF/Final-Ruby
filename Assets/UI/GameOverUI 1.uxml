@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameOverUI" src="project://database/Assets/GameOverUI.uxml?fileID=9197481963319205126&amp;guid=68949505c2fa7db40a2926b7f45db637&amp;type=3#GameOverUI" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Instance template="GameOverUI" name="GameOverScreen" style="height: 345px; width: 1336px; position: absolute; top: 142px; left: -387px;" />
+    </ui:VisualElement>
+</ui:UXML>

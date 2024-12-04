@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="LevelUpContainer" style="position: absolute; width: 100%; height: 100%; align-items: center; justify-content: center; transition: all 0.5s ease-out; display: none;">
+        <!-- Main Level Up Panel -->
+        <ui:VisualElement name="LevelUpPanel" style="scale: 0.8; transition: all 0.5s ease-out; position: relative;">
+            <!-- Outer Glow -->
+            <ui:VisualElement name="LevelUpOuterGlow" style="position: absolute; width: 600px; height: 600px; top: 50%; left: 50%; translate: -50% -50%; background-image: url(&apos;project://database/Assets/ExpGlow.png&apos;); -unity-background-scale-mode: scale-to-fit; rotate: 0; transition: all 0.5s ease-out; opacity: 0.8;" />
+            
+            <!-- Inner Content -->
+            <ui:VisualElement name="LevelUpContent" style="padding: 40px; align-items: center; position: relative;">
+                <!-- Level Up Text -->
+                <ui:Label name="LevelUpTitle" text="LEVEL UP!" style="color: rgb(255, 215, 0); font-size: 72px; -unity-font-style: bold; -unity-text-align: upper-center; -unity-text-outline-width: 3px; -unity-text-outline-color: rgba(0, 0, 0, 0.8); letter-spacing: 5px; margin-bottom: 30px; position: relative;" />
+                
+                <!-- Level Number -->
+                <ui:Label name="LevelNumber" text="LEVEL 2" style="color: rgb(255, 255, 255); font-size: 48px; -unity-font-style: bold; -unity-text-align: upper-center; -unity-text-outline-width: 2px; -unity-text-outline-color: rgba(0, 0, 0, 0.8); margin-bottom: 20px; position: relative;" />
+                
+                <!-- Stats Summary -->
+                <ui:Label name="LevelUpStats" text="Growing stronger!" style="color: rgb(255, 255, 255); font-size: 32px; -unity-text-align: upper-center; position: relative; -unity-text-outline-width: 1px; -unity-text-outline-color: rgba(0, 0, 0, 0.8);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
